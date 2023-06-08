@@ -4,9 +4,10 @@
 I created this originally intending to make a ten minute flash-card style project to quiz me on chords, but after 
 about eight hours of coding, I'm deciding to publish it. It's not my proudest work, but it's pretty cool.
 
-### Demo:
-![](https://github.com/ben174/pyano/blob/7dc86dc265ddfc38afa5d1fa31cdda5b875bb111/pyano.gif)
+_________________
 
+### Demo:
+![https://github.com/ben174/pyano/blob/80899a6049a88e68723234023f7f444e85560c9c/pyano.gif]
 
 _________________
 ## Don't Judge 😠
