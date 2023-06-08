@@ -8,13 +8,14 @@ about eight hours of coding, I'm deciding to publish it. It's not my proudest wo
 ![](https://github.com/ben174/pyano/blob/7dc86dc265ddfc38afa5d1fa31cdda5b875bb111/pyano.gif)
 
 
-### Don't judge me on the code. 
+_________________
+## Don't Judge 😠
 
-#### I don't conider this production level code, and would never submit a PR for peer review.
-
+> I don't conider this production level code, and would never submit a PR for peer review.
 > This was just a quickie tool I made for myself: a developer who prefers to practice learning to play piano in his terminal.
 
-### Features:
+_________________
+## Features:
 
 * MIDI support! (requires `pygame` module, install `requirements.txt`)
 * Completely terminal based. If you know me - you'll understand why. I never leave the terminal. I even do my 
@@ -27,4 +28,6 @@ about eight hours of coding, I'm deciding to publish it. It's not my proudest wo
 * `pip install pygame`
 * `python3 main.py`
 
-Author: Ben Friedland - www.bugben.com
+_________________
+
+## Author: Ben Friedland - www.bugben.com
