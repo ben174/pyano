@@ -7,6 +7,13 @@ about eight hours of coding, I'm deciding to publish it. It's not my proudest wo
 ### Demo:
 ![](https://github.com/ben174/pyano/blob/7dc86dc265ddfc38afa5d1fa31cdda5b875bb111/pyano.gif)
 
+
+### Don't judge me on the code. I don't consider this production level code, and would never submit a PR for peer review.
+
+```
+This was just a quickie tool I made for myself: a developer who prefers to practice learning to play piano in his terminal.
+```
+
 ### Features:
 
 * MIDI support! (requires `pygame` module, install `requirements.txt`)
