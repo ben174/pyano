@@ -95,7 +95,6 @@ class Game:
         self.total_wins = 0
         self.prompter = Prompter()
 
-
     def is_lost(self):
         for note in self.notes.values():
             if len(note.response_times) < 2:
@@ -159,7 +158,8 @@ class Game:
                 game.write_log(result)
                 exit()
 
-            response_ms = round((datetime.datetime.now() - start_time).total_seconds() * 1000)
+            response_ms = round(
+                (datetime.datetime.now() - start_time).total_seconds() * 1000)
             challenge.response_times.append(response_ms)
             game.total_wins += 1
 

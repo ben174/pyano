@@ -42,8 +42,10 @@ class Prompter:
             ret += f' - Hint: {note.hint}\n'
             locations = note.get_locations()
             key_locations = [(loc, True) for loc in locations]
-            key_locations.extend([(loc, False) for loc in game.notes[note.fifth].get_locations()])
-            key_locations.extend([(loc, False) for loc in game.notes[note.maj_tri].get_locations()])
+            key_locations.extend(
+                [(loc, False) for loc in game.notes[note.fifth].get_locations()])
+            key_locations.extend(
+                [(loc, False) for loc in game.notes[note.maj_tri].get_locations()])
             ret += '\n' + game.draw_piano(key_locations)
             return ret
 
