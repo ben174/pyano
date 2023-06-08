@@ -19,3 +19,4 @@ about eight hours of coding, I'm deciding to publish it. It's not my proudest wo
 * `python3 main.py`
 
 ### Demo:
+![](https://github.com/ben174/pyano/blob/7dc86dc265ddfc38afa5d1fa31cdda5b875bb111/pyano.gif)
