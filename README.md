@@ -7,7 +7,7 @@ about eight hours of coding, I'm deciding to publish it. It's not my proudest wo
 _________________
 
 ### Demo:
-!()[https://github.com/ben174/pyano/blob/80899a6049a88e68723234023f7f444e85560c9c/pyano.gif]
+![](https://github.com/ben174/pyano/blob/80899a6049a88e68723234023f7f444e85560c9c/pyano.gif)
 
 _________________
 ## Don't Judge 😠
