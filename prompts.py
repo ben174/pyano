@@ -1,5 +1,6 @@
 import random
 import re
+import time
 
 from pyanomidi import MidiReader
 from termutil import getch
@@ -53,7 +54,12 @@ class Prompter:
         print()
         print(f'Enter major chord for note: {note.key}')
         print(f'   * Use attached MIDI keyboard')
-        response = self.midi_reader.read_chord()
+        try:
+            response = self.midi_reader.read_chord()
+        except:
+            print('No MIDI keyboard detected. Plug one in for more fun...')
+            time.sleep(4)
+            return
         notes = [re.sub(r'\d', '', r) for r in response]
         correct_chord = set([note.key, note.fifth, note.maj_tri])
         guess_chord = set(notes)
