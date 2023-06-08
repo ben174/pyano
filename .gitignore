@@ -1,0 +1,5 @@
+venv/
+log.txt
+topscores.txt
+.vscode
+__pycache__
