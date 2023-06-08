@@ -4,6 +4,8 @@
 I created this originally intending to make a ten minute flash-card style project to quiz me on chords, but after 
 about eight hours of coding, I'm deciding to publish it. It's not my proudest work, but it's pretty cool.
 
+### Demo:
+![](https://github.com/ben174/pyano/blob/7dc86dc265ddfc38afa5d1fa31cdda5b875bb111/pyano.gif)
 
 ### Features:
 
@@ -17,6 +19,3 @@ about eight hours of coding, I'm deciding to publish it. It's not my proudest wo
 * Clone this repo
 * `pip install pygame`
 * `python3 main.py`
-
-### Demo:
-![](https://github.com/ben174/pyano/blob/7dc86dc265ddfc38afa5d1fa31cdda5b875bb111/pyano.gif)
